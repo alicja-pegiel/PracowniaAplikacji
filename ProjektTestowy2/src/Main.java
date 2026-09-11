@@ -19,4 +19,16 @@ void main() {
     System.out.println("Wartość zmiennej \"calkowita\" wynosi " + calkowita);
     System.out.println("Wartość zmiennej \"calkowita\" po podzieleniu na dwa: " + calkowita/2);
 
+    char znak = 'a';
+    System.out.println("Literka a ma wartość: " + (znak + 0));
+
+    String napis = "napis";
+
+    System.out.println("Wielkie litery: " + napis.toUpperCase());
+
+    Scanner sc = new Scanner(System.in);
+
+    System.out.println("Podaj wiek: ");
+    int wiek = sc.nextInt();
+
 }

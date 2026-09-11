@@ -33,7 +33,9 @@ void main() {
 
     System.out.println("Podaj wiek: ");
 
+    // Wczytywanie od użytkownika
     Scanner sc = new Scanner(System.in);
 
     int wiek = sc.nextInt();
+    String imie = sc.nextLine();
 }
